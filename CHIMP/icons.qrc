@@ -1,0 +1,55 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/icon">
+        <file>icons/001-picture.png</file>
+        <file>icons/002-brightness.png</file>
+        <file>icons/003-zoom in.png</file>
+        <file>icons/004-zoom out.png</file>
+        <file>icons/005-layout.png</file>
+        <file>icons/006-menu.png</file>
+        <file>icons/007-settings.png</file>
+        <file>icons/008-visible.png</file>
+        <file>icons/009-invisible.png</file>
+        <file>icons/010-rgb.png</file>
+        <file>icons/011-grid.png</file>
+        <file>icons/012-picture.png</file>
+        <file>icons/013-color.png</file>
+        <file>icons/014-file.png</file>
+        <file>icons/015-delete.png</file>
+        <file>icons/016-intersect.png</file>
+        <file>icons/017-stamp.png</file>
+        <file>icons/018-patch.png</file>
+        <file>icons/019-paint brush.png</file>
+        <file>icons/020-block.png</file>
+        <file>icons/021-layers.png</file>
+        <file>icons/022-pen tool.png</file>
+        <file>icons/023-resize.png</file>
+        <file>icons/024-pencil.png</file>
+        <file>icons/025-eraser.png</file>
+        <file>icons/026-contrast.png</file>
+        <file>icons/027-patch.png</file>
+        <file>icons/028-move.png</file>
+        <file>icons/029-flip.png</file>
+        <file>icons/030-rotation.png</file>
+        <file>icons/031-paint bucket.png</file>
+        <file>icons/032-blur.png</file>
+        <file>icons/033-spray.png</file>
+        <file>icons/034-crop.png</file>
+        <file>icons/035-tools.png</file>
+        <file>icons/036-pipette.png</file>
+        <file>icons/037-slice.png</file>
+        <file>icons/038-paint brush.png</file>
+        <file>icons/039-magic wand.png</file>
+        <file>icons/040-scissors.png</file>
+        <file>icons/041-colors.png</file>
+        <file>icons/042-brightness.png</file>
+        <file>icons/043-picture.png</file>
+        <file>icons/044-settings.png</file>
+        <file>icons/045-expand.png</file>
+        <file>icons/046-color picker.png</file>
+        <file>icons/047-letter.png</file>
+        <file>icons/048-type.png</file>
+        <file>icons/049-pin.png</file>
+        <file>icons/050-levels.png</file>
+    </qresource>
+</RCC>
