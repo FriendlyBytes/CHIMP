@@ -2,6 +2,9 @@
 #include "ui_mainwindow.h"
 #include<QFileDialog>
 #include <stdio.h>
+#include <QColorDialog>
+#include <QColor>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -22,4 +25,16 @@ void MainWindow::on_actionOpen_triggered()
     printf("%s",filename.toUtf8().constData());
     fflush(NULL);
 
+}
+
+// Color picker
+void MainWindow::on_actionPaint_triggered()
+{
+    QColorDialog::getColor(Qt::white, this, "Color picker");
+}
+
+//Full screen mode, trenutno se zatvara na Alt+F4
+void MainWindow::on_actionFull_Screen_Mode_triggered()
+{
+    QWidget::showFullScreen();
 }

@@ -18,6 +18,10 @@ public:
 private slots:
     void on_actionOpen_triggered();
 
+    void on_actionPaint_triggered();
+
+    void on_actionFull_Screen_Mode_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
