@@ -4,13 +4,17 @@
 #include <stdio.h>
 #include <QColorDialog>
 #include <QColor>
-
+#include <QMessageBox>
+#include <QShortcut>
+#include <stdlib.h>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
     this->setWindowTitle("CHIMP");
+
+
 }
 
 MainWindow::~MainWindow()
@@ -37,4 +41,22 @@ void MainWindow::on_actionPaint_triggered()
 void MainWindow::on_actionFull_Screen_Mode_triggered()
 {
     QWidget::showFullScreen();
+}
+
+void MainWindow::on_actionQuit_triggered()
+{
+    QMessageBox::StandardButton reply = QMessageBox::question(this, "CHIMP","Save changes to *insert name*",QMessageBox::Save|QMessageBox::Discard|QMessageBox::Cancel);//TODO
+    switch(reply){
+    case QMessageBox::Cancel:
+        break;
+    case QMessageBox::Save:
+        //TODO Cuvanje
+        close();
+        break;
+    case QMessageBox::Discard:
+        close();
+        break;
+    default:
+        break;
+    }
 }

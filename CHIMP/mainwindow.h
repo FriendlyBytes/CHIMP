@@ -1,6 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include <QShortcut>
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -22,7 +22,10 @@ private slots:
 
     void on_actionFull_Screen_Mode_triggered();
 
+    void on_actionQuit_triggered();
+
 private:
     Ui::MainWindow *ui;
+
 };
 #endif // MAINWINDOW_H
